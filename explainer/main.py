@@ -58,7 +58,8 @@ class XRec:
                     print(
                         f"Epoch [{epoch}/{args.epochs}], Step [{i}/{len(self.trn_loader)}], Loss: {loss.item()}"
                     )
-                    print(f"Generated Explanation: {outputs[0]}")
+                    # During training, we don't generate actual text, just train the embeddings
+                    print(f"Training embedding converters... (no text generation during training)")
 
             print(f"Epoch [{epoch}/{args.epochs}], Loss: {total_loss}")
             # Save the model
