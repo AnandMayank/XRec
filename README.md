@@ -1,7 +1,5 @@
 # Enhancing Explainable Recommendations via Collaborative Signal Injection in Large Language Models
 
-<img src='cupid.drawio.png' />
-
 PyTorch implementation for [Enhancing Explainable Recommendations via Collaborative Signal Injection in Large Language Models
 ]
 
