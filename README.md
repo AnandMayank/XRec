@@ -1,21 +1,21 @@
-# XRec: Large Language Models for Explainable Recommendation
+# Enhancing Explainable Recommendations via Collaborative Signal Injection in Large Language Models
 
 <img src='cupid.drawio.png' />
 
-PyTorch implementation for [XRec: Large Language Models for Explainable Recommendation](http://arxiv.org/abs/2406.02377)
+PyTorch implementation for [Enhancing Explainable Recommendations via Collaborative Signal Injection in Large Language Models
+]
 
-[2024.Sep]🎯🎯📢📢Our XRec is accepted by EMNLP'2024! Congrats to all XRec team! 🎉🎉🎉
 
-> **XRec: Large Language Models for Explainable Recommendation**\
-> Qiyao Ma, Xubin Ren, Chao Huang*\
-> *EMNLP 2024*
+> **Enhancing Explainable Recommendations via Collaborative Signal Injection in Large Language Models**\
+> Subham Raj, Pritesh Tripathi, Mayank Anand,
+Hardik Sharma, Bagesh Kumar*\
 
 -----
 
-This paper presents a model-agnostic framework, **XRec**, that integrates the graph-based collaborative filtering framework with Large Language Models (LLMs) to generate comprehensive explanations for recommendations. By leveraging the inherent collaborative user-item relationships and harnessing the powerful textual generation capabilities of LLMs, XRec establishes a strong connection between collaborative signals and language semantics through the utilization of a Mixture of Experts (MoE) adapter.
+We present a model-agnostic framework that injects collaborative filtering signals into LLMs via a lightweight collaborative information adapter, enabling the generation of rich, user-specific explanations for recommendations. Our approach leverages graph-based user-item interaction data, processed through a Graph Neural Network (GNN), to encode high-order collaborative relationships, which are then aligned with the LLM’s semantic space.
 
 <p align="center">
-<img src="Final Diagram.png" alt="XRec" />
+<img src="Final Diagram.jpg" alt="XRec" />
 </p>
 
 ## Environment
