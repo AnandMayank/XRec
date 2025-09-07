@@ -1,6 +1,6 @@
 # XRec: Large Language Models for Explainable Recommendation
 
-<img src='XRec_cover.png' />
+<img src='cupid.drawio.png' />
 
 PyTorch implementation for [XRec: Large Language Models for Explainable Recommendation](http://arxiv.org/abs/2406.02377)
 
@@ -15,7 +15,7 @@ PyTorch implementation for [XRec: Large Language Models for Explainable Recommen
 This paper presents a model-agnostic framework, **XRec**, that integrates the graph-based collaborative filtering framework with Large Language Models (LLMs) to generate comprehensive explanations for recommendations. By leveraging the inherent collaborative user-item relationships and harnessing the powerful textual generation capabilities of LLMs, XRec establishes a strong connection between collaborative signals and language semantics through the utilization of a Mixture of Experts (MoE) adapter.
 
 <p align="center">
-<img src="XRec.png" alt="XRec" />
+<img src="Final Diagram.png" alt="XRec" />
 </p>
 
 ## Environment
