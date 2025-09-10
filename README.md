@@ -202,17 +202,9 @@ Below is an example of generating explanation for a specific user-item recommend
     └── system_prompt.txt                  # system prompt for GPTScore
 ```
 
-## Citation
+## Citation 
 
-If you find XRec helpful to your research or applications, please kindly cite:
-
-```bibtex
-@article{ma2024xrec,
-  title={XRec: Large Language Models for Explainable Recommendation},
-  author={Ma, Qiyao and Ren, Xubin and Huang, Chao},
-  journal={arXiv preprint arXiv:2406.02377},
-  year={2024}
-}
+If you find this repo helpful to your research or applications, please kindly star this repo
 ```
 ## 🚀 Quick Start
 
